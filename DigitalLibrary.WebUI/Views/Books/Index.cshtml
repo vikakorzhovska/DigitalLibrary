@@ -1,0 +1,23 @@
+﻿@model IEnumerable<DigitalLibrary.Core.Models.Book>
+
+<h2>Книги</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва</th>
+            <th>Автор</th>
+            <th>Жанр</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author?.FullName</td>
+                <td>@book.Genre?.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

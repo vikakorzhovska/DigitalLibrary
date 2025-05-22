@@ -1,0 +1,18 @@
+﻿@model IEnumerable<DigitalLibrary.Core.Models.Author>
+
+<h2>Автори</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ім'я</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.FullName</td>
+            </tr>
+        }
+    </tbody>
+</table>

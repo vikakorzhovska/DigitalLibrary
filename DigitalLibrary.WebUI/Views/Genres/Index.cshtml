@@ -1,0 +1,18 @@
+﻿@model IEnumerable<DigitalLibrary.Core.Models.Genre>
+
+<h2>Жанри</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var genre in Model)
+        {
+            <tr>
+                <td>@genre.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
