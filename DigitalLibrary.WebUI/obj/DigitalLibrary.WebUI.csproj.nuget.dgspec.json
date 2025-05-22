@@ -184,6 +184,9 @@
             "projectReferences": {
               "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
                 "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
+              },
+              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
+                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
               }
             }
           }
