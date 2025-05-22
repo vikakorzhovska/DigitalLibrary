@@ -1,9 +1,15 @@
+using DigitalLibrary.Core.Interfaces;
 using DigitalLibrary.Data.Context;
+using DigitalLibrary.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+
 builder.Services.AddDbContext<LibraryDbContext>(options =>
     options.UseSqlServer(connectionString));
 // Add services to the container.
