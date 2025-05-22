@@ -1,0 +1,12 @@
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\bin\Debug\net8.0\DigitalLibrary.Core.deps.json
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\bin\Debug\net8.0\DigitalLibrary.Core.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\bin\Debug\net8.0\DigitalLibrary.Core.pdb
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.AssemblyInfoInputs.cache
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.AssemblyInfo.cs
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.csproj.CoreCompileInputs.cache
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.sourcelink.json
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\refint\DigitalLibrary.Core.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.pdb
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\ref\DigitalLibrary.Core.dll
