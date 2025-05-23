@@ -1,0 +1,17 @@
+﻿@model DigitalLibrary.Core.Models.BorrowRecord
+
+<h2>Видалити запис видачі</h2>
+
+<p>Ви впевнені, що хочете видалити запис про видачу книги:</p>
+
+<ul>
+    <li><strong>Книга:</strong> @Model.Book.Title</li>
+    <li><strong>Користувач:</strong> @Model.User.Username</li>
+    <li><strong>Дата видачі:</strong> @Model.BorrowedAt.ToShortDateString()</li>
+</ul>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>
