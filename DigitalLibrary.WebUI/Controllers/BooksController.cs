@@ -29,8 +29,9 @@ namespace DigitalLibrary.WebUI.Controllers
 
         public async Task<IActionResult> Create()
         {
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "Name");
-            ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name");
+            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName");
+            ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name"); 
+
             return View();
         }
 
@@ -43,8 +44,9 @@ namespace DigitalLibrary.WebUI.Controllers
                 await _bookRepository.AddAsync(book);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "Name", book.AuthorId);
+            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName", book.AuthorId);
             ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
+
             return View(book);
         }
 
@@ -53,8 +55,9 @@ namespace DigitalLibrary.WebUI.Controllers
             var book = await _bookRepository.GetByIdAsync(id);
             if (book == null) return NotFound();
 
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "Name", book.AuthorId);
+            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName", book.AuthorId);
             ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
+
             return View(book);
         }
 
@@ -70,8 +73,9 @@ namespace DigitalLibrary.WebUI.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "Name", book.AuthorId);
+            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName", book.AuthorId);
             ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
+
             return View(book);
         }
 
