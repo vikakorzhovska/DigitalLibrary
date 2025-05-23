@@ -2,6 +2,7 @@ using DigitalLibrary.Core.Interfaces;
 using DigitalLibrary.Data.Context;
 using DigitalLibrary.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using DigitalLibrary.Core.Services;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 builder.Services.AddScoped<IBorrowRecordRepository, BorrowRecordRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<PasswordHasher>();
 
 
 builder.Services.AddDbContext<LibraryDbContext>(options =>
