@@ -1,0 +1,17 @@
+﻿@model DigitalLibrary.Core.Models.BorrowRecord
+
+<h2>Деталі видачі</h2>
+
+<dl class="row">
+    <dt class="col-sm-3">Книга</dt>
+    <dd class="col-sm-9">@Model.Book.Title</dd>
+
+    <dt class="col-sm-3">Користувач</dt>
+    <dd class="col-sm-9">@Model.User.Username</dd>
+
+    <dt class="col-sm-3">Дата видачі</dt>
+    <dd class="col-sm-9">@Model.BorrowedAt.ToShortDateString()</dd>
+
+    <dt class="col-sm-3">Дата повернення</dt>
+    <dd class="col-sm-9">@Model.ReturnedAt?.ToShortDateString() ?? "Ще не повернено"</dd>
+</dl>
