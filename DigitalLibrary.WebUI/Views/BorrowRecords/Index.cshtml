@@ -21,7 +21,7 @@
                 <td>@record.Book.Title</td>
                 <td>@record.User.Username</td>
                 <td>@record.BorrowedAt.ToShortDateString()</td>
-                <td>@record.ReturnedAt?.ToShortDateString() ?? "Ще не повернено"</td>
+                <td>@record.ReturnedAt?.ToShortDateString() "Ще не повернено"</td>
                 <td>
                     <a asp-action="Details" asp-route-id="@record.Id" class="btn btn-sm btn-info">Деталі</a>
                     <a asp-action="Edit" asp-route-id="@record.Id" class="btn btn-sm btn-warning">Редагувати</a>

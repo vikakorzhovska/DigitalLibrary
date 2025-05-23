@@ -30,7 +30,7 @@ namespace DigitalLibrary.WebUI.Controllers
         public async Task<IActionResult> Create()
         {
             ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
-            ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "FullName");
+            ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "Username");
             return View();
         }
 
@@ -45,7 +45,7 @@ namespace DigitalLibrary.WebUI.Controllers
             if (!ModelState.IsValid)
             {
                 ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
-                ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "FullName");
+                ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "Username");
                 return View(record);
             }
 
@@ -66,7 +66,7 @@ namespace DigitalLibrary.WebUI.Controllers
             if (record == null) return NotFound();
 
             ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
-            ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "FullName");
+            ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "Username");
             return View(record);
         }
 
@@ -81,7 +81,7 @@ namespace DigitalLibrary.WebUI.Controllers
             if (!ModelState.IsValid)
             {
                 ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
-                ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "FullName");
+                ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "Username");
                 return View(record);
             }
 

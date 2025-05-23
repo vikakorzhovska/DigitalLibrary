@@ -1,0 +1,15 @@
+﻿@model DigitalLibrary.Core.Models.User
+
+<h2>Видалити користувача</h2>
+
+<h4>Ви впевнені, що хочете видалити цього користувача?</h4>
+<div>
+    <strong>Ім'я:</strong> @Model.Username<br />
+    <strong>Email:</strong> @Model.Email
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>
