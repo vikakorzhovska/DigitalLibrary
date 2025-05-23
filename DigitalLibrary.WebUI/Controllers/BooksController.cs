@@ -74,6 +74,23 @@ namespace DigitalLibrary.WebUI.Controllers
             ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
             return View(book);
         }
+        public async Task<IActionResult> Delete(int id)
+        {
+            var book = await _bookRepository.GetByIdAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return View(book);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            await _bookRepository.DeleteAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
 
     }
 }

@@ -1,0 +1,22 @@
+﻿@model DigitalLibrary.Core.Models.Book
+
+@{
+    ViewData["Title"] = "Видалити книгу";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Ви дійсно хочете видалити книгу?</h4>
+<div>
+    <h5>@Model.Title</h5>
+    <p><strong>Опис:</strong> @Model.Description</p>
+    <p><strong>Рік:</strong> @Model.Year</p>
+    <p><strong>Автор:</strong> @Model.Author.FullName</p>
+    <p><strong>Жанр:</strong> @Model.Genre.Name</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>
