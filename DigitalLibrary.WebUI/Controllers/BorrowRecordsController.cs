@@ -59,5 +59,49 @@ namespace DigitalLibrary.WebUI.Controllers
             if (record == null) return NotFound();
             return View(record);
         }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var record = await _borrowRecordRepo.GetByIdAsync(id);
+            if (record == null) return NotFound();
+
+            ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
+            ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "FullName");
+            return View(record);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(BorrowRecord record)
+        {
+            if (record.ReturnedAt != null && record.ReturnedAt < record.BorrowedAt)
+            {
+                ModelState.AddModelError("ReturnedAt", "Дата повернення не може бути раніше дати видачі.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
+                ViewBag.Users = new SelectList(await _userRepo.GetAllAsync(), "Id", "FullName");
+                return View(record);
+            }
+
+            await _borrowRecordRepo.UpdateAsync(record);
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var record = await _borrowRecordRepo.GetByIdAsync(id);
+            if (record == null) return NotFound();
+            return View(record);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            await _borrowRecordRepo.DeleteAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

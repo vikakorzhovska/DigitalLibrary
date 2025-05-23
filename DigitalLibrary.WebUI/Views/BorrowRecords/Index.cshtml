@@ -24,6 +24,8 @@
                 <td>@record.ReturnedAt?.ToShortDateString() ?? "Ще не повернено"</td>
                 <td>
                     <a asp-action="Details" asp-route-id="@record.Id" class="btn btn-sm btn-info">Деталі</a>
+                    <a asp-action="Edit" asp-route-id="@record.Id" class="btn btn-sm btn-warning">Редагувати</a>
+                    <a asp-action="Delete" asp-route-id="@record.Id" class="btn btn-sm btn-danger">Видалити</a>
                 </td>
             </tr>
         }
