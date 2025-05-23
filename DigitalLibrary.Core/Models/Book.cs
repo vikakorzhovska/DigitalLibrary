@@ -16,10 +16,10 @@ namespace DigitalLibrary.Core.Models
         public int Year { get; set; }
         [Required(ErrorMessage = "Автор обов'язковий")]
         public int AuthorId { get; set; }
-        public Author Author { get; set; } = null!;
+        public Author ?Author { get; set; } 
         [Required(ErrorMessage = "Жанр обов'язковий")]
         public int GenreId { get; set; }
-        public Genre Genre { get; set; } = null!;
+        public Genre ?Genre { get; set; } 
 
         public ICollection<BorrowRecord> BorrowRecords { get; set; } = new List<BorrowRecord>();
     }
