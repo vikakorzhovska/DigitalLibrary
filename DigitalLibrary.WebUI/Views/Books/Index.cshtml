@@ -20,6 +20,10 @@
                 <td>@book.Title</td>
                 <td>@book.Author?.FullName</td>
                 <td>@book.Genre?.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-sm btn-secondary">Редагувати</a>
+                </td>
+
             </tr>
         }
     </tbody>
