@@ -1,0 +1,26 @@
+﻿@model DigitalLibrary.Core.Models.Book
+
+@{
+    ViewData["Title"] = "Деталі книги";
+}
+
+<h2>@Model.Title</h2>
+
+<div class="card p-3">
+    <dl class="row">
+        <dt class="col-sm-3">Опис:</dt>
+        <dd class="col-sm-9">@Model.Description</dd>
+
+        <dt class="col-sm-3">Рік видання:</dt>
+        <dd class="col-sm-9">@Model.Year</dd>
+
+        <dt class="col-sm-3">Автор:</dt>
+        <dd class="col-sm-9">@Model.Author.FullName</dd>
+
+        <dt class="col-sm-3">Жанр:</dt>
+        <dd class="col-sm-9">@Model.Genre.Name</dd>
+    </dl>
+
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Редагувати</a>
+    <a asp-action="Index" class="btn btn-outline-primary">Назад до списку</a>
+</div>
