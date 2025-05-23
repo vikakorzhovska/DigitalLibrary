@@ -13,5 +13,7 @@ namespace DigitalLibrary.Core.Models
         public string PasswordHash { get; set; } = null!;
 
         public ICollection<BorrowRecord> BorrowRecords { get; set; } = new List<BorrowRecord>();
+
+        public string? Role { get; set; }
     }
 }
