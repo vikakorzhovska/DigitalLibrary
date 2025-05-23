@@ -22,6 +22,7 @@
                 <td>@book.Genre?.Name</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-sm btn-secondary">Редагувати</a>
+                    <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-sm btn-danger">Видалити</a>
                 </td>
 
             </tr>
