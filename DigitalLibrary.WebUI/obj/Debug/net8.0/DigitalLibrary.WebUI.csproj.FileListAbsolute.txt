@@ -267,3 +267,10 @@ D:\Уроки\Конструювання програмного забезпеч
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
