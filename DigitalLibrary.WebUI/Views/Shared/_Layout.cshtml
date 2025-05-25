@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DigitalLibrary.WebUI.styles.css" asp-append-version="true" />
+
 </head>
 <body>
     <header>
@@ -16,18 +17,19 @@
 
                 <div class="collapse navbar-collapse d-flex justify-content-between">
                     
-                    <ul class="navbar-nav">
-                        <a class="nav-link" asp-controller="Books" asp-action="Index">Книги</a>
-                        <a class="nav-link" asp-controller="Authors" asp-action="Index">Автори</a>
-                        <a class="nav-link" asp-controller="Genres" asp-action="Index">Жанри</a>
-                        <a class="nav-link" asp-controller="BorrowRecords" asp-action="Index">Журнал видачі</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item"><a class="nav-link" asp-controller="Books" asp-action="Index">Книги</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Authors" asp-action="Index">Автори</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Genres" asp-action="Index">Жанри</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="BorrowRecords" asp-action="Index">Журнал видачі</a></li>
 
                         @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
-                            <a class="nav-link" asp-controller="Users" asp-action="Index">Користувачі</a>
-                            <a class="nav-link" asp-controller="Admin" asp-action="Index">Статистика</a>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Users" asp-action="Index">Користувачі</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="Index">Статистика</a></li>
                         }
                     </ul>
+
 
                     <ul class="navbar-nav">
                         @if (User.Identity.IsAuthenticated)
@@ -64,11 +66,12 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="footer text-center text-muted mt-5 py-3 bg-light border-top shadow-sm">
         <div class="container">
-            &copy; 2025 - DigitalLibrary.WebUI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - DigitalLibrary - <a asp-area="" asp-controller="Home" asp-action="Index">Головна</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

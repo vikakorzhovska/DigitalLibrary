@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c3eS+gJ8VO9HKWQ0h14hExdjHFVb9PnF/Lb504nVNUM=",
+  "Hash": "Vu4FU9tO4NSeU4dwxOOKScyxONb4/RFLHqby3oTnJ84=",
   "Source": "DigitalLibrary.WebUI",
   "BasePath": "_content/DigitalLibrary.WebUI",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DigitalLibrary.WebUI.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\account.css",
+      "SourceId": "DigitalLibrary.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\",
+      "BasePath": "_content/DigitalLibrary.WebUI",
+      "RelativePath": "css/account#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kxzzougq2",
+      "Integrity": "p9fT9DPwrPJY9KYukv/mrOTCBZm2DNRo+eEXtpNehQk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\account.css"
+    },
+    {
       "Identity": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\site.css",
       "SourceId": "DigitalLibrary.WebUI",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "1jyoqo9wg4",
+      "Integrity": "M/GE1V7WB5e+WfmetiMZPNHCHOwNW8uM2VkuCFunNwk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,8 +1342,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\site.css",
+      "Route": "css/account.7kxzzougq2.css",
+      "AssetFile": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\account.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1384"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"p9fT9DPwrPJY9KYukv/mrOTCBZm2DNRo+eEXtpNehQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:54:31 GMT"
+          "Value": "Sun, 25 May 2025 13:23:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1374,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "7kxzzougq2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/account.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p9fT9DPwrPJY9KYukv/mrOTCBZm2DNRo+eEXtpNehQk="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.css",
+      "AssetFile": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p9fT9DPwrPJY9KYukv/mrOTCBZm2DNRo+eEXtpNehQk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 13:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p9fT9DPwrPJY9KYukv/mrOTCBZm2DNRo+eEXtpNehQk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.1jyoqo9wg4.css",
+      "AssetFile": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M/GE1V7WB5e+WfmetiMZPNHCHOwNW8uM2VkuCFunNwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 13:10:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1jyoqo9wg4"
         },
         {
           "Name": "label",
@@ -1361,7 +1464,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-M/GE1V7WB5e+WfmetiMZPNHCHOwNW8uM2VkuCFunNwk="
         }
       ]
     },
@@ -1376,7 +1479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "798"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"M/GE1V7WB5e+WfmetiMZPNHCHOwNW8uM2VkuCFunNwk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 14:54:31 GMT"
+          "Value": "Sun, 25 May 2025 13:10:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1501,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-M/GE1V7WB5e+WfmetiMZPNHCHOwNW8uM2VkuCFunNwk="
         }
       ]
     },
