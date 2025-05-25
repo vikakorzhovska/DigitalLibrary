@@ -2,18 +2,17 @@
 using DigitalLibrary.Core.Models;
 using DigitalLibrary.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using DigitalLibrary.Core.Services;
 using DigitalLibrary.Core.ViewModels;
 namespace DigitalLibrary.WebUI.Controllers
 {
     public class UsersController : Controller
     {
         private readonly IUserRepository _userRepo;
-        private readonly PasswordHasher _passwordHasher;
-        public UsersController(IUserRepository userRepo, PasswordHasher passwordHasher)
+        private readonly IUserService _userService;
+        public UsersController(IUserRepository userRepo, IUserService userService)
         {
             _userRepo = userRepo;
-            _passwordHasher = passwordHasher;
+            _userService = userService;
         }
 
         public async Task<IActionResult> Index()
@@ -40,16 +39,18 @@ namespace DigitalLibrary.WebUI.Controllers
         {
             if (!ModelState.IsValid) return View(model);
 
-            var user = new User
+            var existingUser = await _userService.GetByEmailAsync(model.Email);
+            if (existingUser != null)
             {
-                Username = model.Username,
-                Email = model.Email,
-                PasswordHash = _passwordHasher.HashPassword(model.Password)
-            };
+                ModelState.AddModelError("", "Користувач з таким Email вже існує");
+                return View(model);
+            }
 
-            await _userRepo.AddAsync(user);
+            var user = await _userService.CreateUserAsync(model.Username, model.Email, model.Password);
+
             return RedirectToAction(nameof(Index));
         }
+
 
         public async Task<IActionResult> Edit(int id)
         {
@@ -69,12 +70,13 @@ namespace DigitalLibrary.WebUI.Controllers
 
             if (!string.IsNullOrEmpty(newPassword))
             {
-                user.PasswordHash = _passwordHasher.HashPassword(newPassword);
+                user.PasswordHash = _userService.HashPassword(user, newPassword);
             }
 
             await _userRepo.UpdateAsync(user);
             return RedirectToAction(nameof(Index));
         }
+
 
         public async Task<IActionResult> Delete(int id)
         {

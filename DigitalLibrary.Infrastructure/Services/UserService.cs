@@ -53,5 +53,11 @@ namespace DigitalLibrary.Infrastructure.Services
             var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
             return result == PasswordVerificationResult.Success ? user : null;
         }
+
+        public string HashPassword(User user, string password)
+        {
+            return _passwordHasher.HashPassword(user, password);
+        }
+
     }
 }

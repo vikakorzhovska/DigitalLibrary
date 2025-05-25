@@ -2,7 +2,6 @@ using DigitalLibrary.Core.Interfaces;
 using DigitalLibrary.Data.Context;
 using DigitalLibrary.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
-using DigitalLibrary.Core.Services;
 using System;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using DigitalLibrary.Infrastructure.Services;
@@ -14,7 +13,6 @@ builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 builder.Services.AddScoped<IBorrowRecordRepository, BorrowRecordRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<PasswordHasher>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddDbContext<LibraryDbContext>(options =>
     options.UseSqlServer(connectionString));
