@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using DigitalLibrary.Core.Models;
 using DigitalLibrary.Data.Context;
 using Microsoft.AspNetCore.Authorization;
+using DigitalLibrary.Core.ViewModels;
+using DigitalLibrary.Core.Interfaces;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
@@ -15,16 +17,30 @@ namespace DigitalLibrary.WebUI.Controllers
     public class GenresController : Controller
     {
         private readonly LibraryDbContext _context;
+        private readonly IGenreRepository _genreRepository;
 
-        public GenresController(LibraryDbContext context)
+        public GenresController(LibraryDbContext context, IGenreRepository genreRepository)
         {
             _context = context;
+            _genreRepository = genreRepository;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? name)
         {
-            return View(await _context.Genres.ToListAsync());
+            var genres = await _genreRepository.GetAllAsync();
+
+            if (!string.IsNullOrWhiteSpace(name))
+                genres = genres.Where(g => g.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            var viewModel = new GenresFilterViewModel
+            {
+                Name = name,
+                Genres = genres
+            };
+
+            return View(viewModel);
         }
+
 
         public async Task<IActionResult> Details(int? id)
         {
