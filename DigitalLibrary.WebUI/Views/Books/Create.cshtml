@@ -1,7 +1,7 @@
 ﻿@model DigitalLibrary.Core.Models.Book
 
 @{
-    ViewData["Title"] = "Додати книгу";
+    ViewData["Title"] = "Add Book";
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -14,34 +14,34 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="Description">Опис</label>
+        <label asp-for="Description">Description</label>
         <textarea asp-for="Description" class="form-control"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Year">Рік видання</label>
+        <label asp-for="Year">Year of publication</label>
         <input asp-for="Year" type="number" class="form-control" />
         <span asp-validation-for="Year" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="AuthorId">Автор</label>
+        <label asp-for="AuthorId">Author</label>
         <select asp-for="AuthorId" asp-items="@(ViewData["Authors"] as SelectList)" class="form-control">
-            <option value="">-- Оберіть автора --</option>
+            <option value="">-- Choose an author --</option>
         </select>
         <span asp-validation-for="AuthorId" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="GenreId">Жанр</label>
+        <label asp-for="GenreId">Genre</label>
         <select asp-for="GenreId" asp-items="@(ViewData["Genres"] as SelectList)" class="form-control">
-            <option value="">-- Оберіть жанр --</option>
+            <option value="">-- Choose a genre --</option>
         </select>
         <span asp-validation-for="GenreId" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Зберегти</button>
+    <button type="submit" class="btn btn-primary">Save</button>
 </form>
 
 

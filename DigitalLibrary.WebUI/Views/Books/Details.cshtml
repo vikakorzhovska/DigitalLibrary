@@ -1,43 +1,43 @@
 ﻿@model DigitalLibrary.Core.Models.Book
 
 @{
-    ViewData["Title"] = "Деталі книги";
+    ViewData["Title"] = "Book details";
 }
 
 <h2>@Model.Title</h2>
 
 <div class="card p-3">
     <dl class="row">
-        <dt class="col-sm-3">Опис:</dt>
+        <dt class="col-sm-3">Description:</dt>
         <dd class="col-sm-9">@Model.Description</dd>
 
-        <dt class="col-sm-3">Рік видання:</dt>
+        <dt class="col-sm-3">Year of publication:</dt>
         <dd class="col-sm-9">@Model.Year</dd>
 
-        <dt class="col-sm-3">Автор:</dt>
+        <dt class="col-sm-3">Author:</dt>
         <dd class="col-sm-9">@Model.Author.FullName</dd>
 
-        <dt class="col-sm-3">Жанр:</dt>
+        <dt class="col-sm-3">Genre:</dt>
         <dd class="col-sm-9">@Model.Genre.Name</dd>
     </dl>
 
-    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Редагувати</a>
-    <a asp-action="Index" class="btn btn-outline-primary">Назад до списку</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+    <a asp-action="Index" class="btn btn-outline-primary">Back at list</a>
 </div>
 
 <hr />
 
-<h4 class="mt-4">Залишити відгук</h4>
+<h4 class="mt-4">Leave a review</h4>
 @if (User.Identity?.IsAuthenticated ?? false)
 {
     <form asp-controller="Review" asp-action="Add" method="post" class="mb-4">
         <input type="hidden" name="BookId" value="@Model.Id" />
         <div class="form-group">
-            <label for="comment">Коментар:</label>
+            <label for="comment">Comment:</label>
             <textarea name="Comment" class="form-control" rows="3" required></textarea>
         </div>
         <div class="form-group mt-2">
-            <label for="rating">Оцінка (1–5):</label>
+            <label for="rating">Rating (1–5):</label>
             <select name="Rating" class="form-control w-25" required>
                 @for (int i = 1; i <= 5; i++)
                 {
@@ -45,15 +45,15 @@
                 }
             </select>
         </div>
-        <button type="submit" class="btn btn-primary mt-2">Надіслати відгук</button>
+        <button type="submit" class="btn btn-primary mt-2">Send review</button>
     </form>
 }
 else
 {
-    <p><em>Увійдіть, щоб залишити відгук.</em></p>
+    <p><em>Sign in to leave a review.</em></p>
 }
 
-<h4 class="mt-5">Відгуки</h4>
+<h4 class="mt-5">Review</h4>
 @if (Model.Reviews != null && Model.Reviews.Any())
 {
     foreach (var review in Model.Reviews)
@@ -68,7 +68,7 @@ else
                 <form asp-controller="Review" asp-action="Delete" method="post" class="mt-2">
                     <input type="hidden" name="id" value="@review.Id" />
                     <input type="hidden" name="bookId" value="@Model.Id" />
-                    <button type="submit" class="btn btn-sm btn-danger">Видалити</button>
+                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
                 </form>
             }
         </div>
@@ -76,6 +76,6 @@ else
 }
 else
 {
-    <p>Наразі відгуків немає.</p>
+    <p>There are currently no reviews.</p>
 }
 

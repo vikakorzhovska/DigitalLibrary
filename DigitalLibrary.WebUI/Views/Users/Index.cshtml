@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<DigitalLibrary.Core.Models.User>
 
-<h2>Користувачі</h2>
+<h2>Users</h2>
 
-<a asp-action="Create" class="btn btn-primary mb-2">Додати нового</a>
+<a asp-action="Create" class="btn btn-primary mb-2">Add New User</a>
 
 <table class="table">
     <thead>
         <tr>
-            <th>Ім'я</th>
+            <th>Name</th>
             <th>Email</th>
             <th></th>
         </tr>
@@ -19,9 +19,9 @@
                 <td>@user.Username</td>
                 <td>@user.Email</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-info btn-sm">Деталі</a>
-                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-warning btn-sm">Редагувати</a>
-                    <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger btn-sm">Видалити</a>
+                    <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         }

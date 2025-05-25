@@ -1,0 +1,1 @@
+D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.WebUI\wwwroot\css\books.css

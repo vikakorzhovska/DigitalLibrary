@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\DigitalLibrary.WebUI.dwh8pyduql.bundle.scp.css"
     },
     {
+      "Id": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
       "Id": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,28 +1,28 @@
 ﻿@model DigitalLibrary.Core.Models.BorrowRecord
 
-<h2>Редагувати запис видачі</h2>
+<h2>Edit issue record</h2>
 
 <form asp-action="Edit" method="post">
     <input type="hidden" asp-for="Id" />
     <div class="form-group">
-        <label>Книга</label>
+        <label>Book</label>
         <select asp-for="BookId" asp-items="ViewBag.Books" class="form-control"></select>
     </div>
 
     <div class="form-group">
-        <label>Користувач</label>
+        <label>User</label>
         <select asp-for="UserId" asp-items="ViewBag.Users" class="form-control"></select>
     </div>
 
     <div class="form-group">
-        <label>Дата видачі</label>
+        <label>Issue date</label>
         <input asp-for="BorrowedAt" type="date" class="form-control" />
     </div>
 
     <div class="form-group">
-        <label>Дата повернення (опціонально)</label>
+        <label>Return date (optional)</label>
         <input asp-for="ReturnedAt" type="date" class="form-control" />
     </div>
 
-    <button type="submit" class="btn btn-success mt-2">Зберегти</button>
+    <button type="submit" class="btn btn-success mt-2">Save</button>
 </form>
