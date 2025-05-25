@@ -22,5 +22,6 @@ namespace DigitalLibrary.Core.Models
         public Genre ?Genre { get; set; } 
 
         public ICollection<BorrowRecord> BorrowRecords { get; set; } = new List<BorrowRecord>();
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
     }
 }

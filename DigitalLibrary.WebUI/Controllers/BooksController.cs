@@ -4,6 +4,7 @@ using DigitalLibrary.Core.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
@@ -145,6 +146,8 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(book);
         }
+
+
 
     }
 }
