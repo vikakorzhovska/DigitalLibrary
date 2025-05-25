@@ -17,6 +17,8 @@ namespace DigitalLibrary.Data.Context
         public DbSet<Author> Authors { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<BorrowRecord> BorrowRecords { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -45,6 +47,18 @@ namespace DigitalLibrary.Data.Context
                 .WithMany(b => b.BorrowRecords)
                 .HasForeignKey(br => br.BookId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Review>()
+    .HasOne(r => r.Book)
+    .WithMany(b => b.Reviews)
+    .HasForeignKey(r => r.BookId)
+    .OnDelete(DeleteBehavior.Cascade); 
+
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.User)
+                .WithMany(u => u.Reviews)
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

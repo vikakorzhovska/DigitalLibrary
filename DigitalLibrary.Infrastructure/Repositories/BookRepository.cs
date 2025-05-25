@@ -25,8 +25,14 @@ namespace DigitalLibrary.Infrastructure.Repositories
 
         public async Task<Book?> GetByIdAsync(int id)
         {
-            return await _context.Books.Include(b => b.Author).Include(b => b.Genre).FirstOrDefaultAsync(b => b.Id == id);
+            return await _context.Books
+                .Include(b => b.Author)
+                .Include(b => b.Genre)
+                .Include(b => b.Reviews)
+                    .ThenInclude(r => r.User)
+                .FirstOrDefaultAsync(b => b.Id == id);
         }
+
 
         public async Task AddAsync(Book book)
         {

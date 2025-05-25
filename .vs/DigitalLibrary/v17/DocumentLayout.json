@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FB1C35-A0F3-43C5-83ED-6575DC8EA627}|DigitalLibrary.Data\\DigitalLibrary.Data.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.data\\context\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FB1C35-A0F3-43C5-83ED-6575DC8EA627}|DigitalLibrary.Data\\DigitalLibrary.Data.csproj|solutionrelative:digitallibrary.data\\context\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\viewmodels\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\viewmodels\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Migrations\\20250525124527_AddReviewsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DigitalLibrary.Data\\Migrations\\20250525124527_AddReviewsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,14 +123,6 @@
       "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\viewmodels\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\viewmodels\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -93,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\controllers\\borrowrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,18 +175,6 @@
       "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\repositories\\borrowrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6143C4EF-97A8-4A7B-BA98-6D03A9DA7E3B}|DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj|solutionrelative:digitallibrary.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01FB1C35-A0F3-43C5-83ED-6575DC8EA627}|DigitalLibrary.Data\\DigitalLibrary.Data.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.data\\context\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FB1C35-A0F3-43C5-83ED-6575DC8EA627}|DigitalLibrary.Data\\DigitalLibrary.Data.csproj|solutionrelative:digitallibrary.data\\context\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\viewmodels\\usercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\viewmodels\\usercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -151,16 +187,8 @@
       "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|solutionrelative:digitallibrary.core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC60DA57-A41C-435F-A2B3-D6820F76A532}|DigitalLibrary.Core\\DigitalLibrary.Core.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.core\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -239,10 +267,6 @@
       "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|d:\\\u0443\u0440\u043E\u043A\u0438\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab6\\digitallibrary\\digitallibrary.webui\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B4C91EE4-43EC-4F6F-9E9C-89A613860770}|DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj|solutionrelative:digitallibrary.webui\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -262,7 +286,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,33 +294,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T08:43:38.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AdminStatisticsViewModel.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
-              "RelativeToolTip": "DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAA8wJQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:31:30.865Z",
+              "WhenOpened": "2025-05-22T16:32:44.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:26:27.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
+              "RelativeToolTip": "DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:14:14.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\Book.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Book.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:04:04.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\User.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\User.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:05:12.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IReviewRepository.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IReviewRepository.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Interfaces\\IReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:47:10.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StatisticsModels.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\StatisticsModels.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\StatisticsModels.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\StatisticsModels.cs",
-              "RelativeToolTip": "DigitalLibrary.Core\\Models\\StatisticsModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "DigitalLibrary.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:31:03.287Z",
+              "WhenOpened": "2025-05-25T12:47:33.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Program.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Program.cs",
+              "RelativeToolTip": "DigitalLibrary.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:04:14.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:50:43.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReviewViewModel.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\ReviewViewModel.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\ReviewViewModel.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\ReviewViewModel.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\ViewModels\\ReviewViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:48:54.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:49:22.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250525124527_AddReviewsTable.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Migrations\\20250525124527_AddReviewsTable.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Data\\Migrations\\20250525124527_AddReviewsTable.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Migrations\\20250525124527_AddReviewsTable.cs",
+              "RelativeToolTip": "DigitalLibrary.Data\\Migrations\\20250525124527_AddReviewsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:45:27.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\Review.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Review.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:38:53.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "StatisticsService.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Services\\StatisticsService.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Services\\StatisticsService.cs",
@@ -309,20 +489,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IStatisticsService.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
-              "RelativeToolTip": "DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:29:49.379Z",
+              "WhenOpened": "2025-05-25T09:41:19.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:26:40.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IUserService.cs",
@@ -330,25 +523,60 @@
               "RelativeToolTip": "DigitalLibrary.Core\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:35:58.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T13:35:58.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Program.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Program.cs",
-              "RelativeToolTip": "DigitalLibrary.WebUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "BorrowRecord.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\BorrowRecord.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\BorrowRecord.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\BorrowRecord.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Models\\BorrowRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T16:04:14.748Z",
+              "WhenOpened": "2025-05-22T15:05:33.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
+              "Title": "StatisticsModels.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\StatisticsModels.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\StatisticsModels.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\StatisticsModels.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Models\\StatisticsModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:31:03.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IStatisticsService.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\Interfaces\\IStatisticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:29:49.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminStatisticsViewModel.cs",
+              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
+              "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
+              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
+              "RelativeToolTip": "DigitalLibrary.Core\\ViewModels\\AdminStatisticsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:31:30.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Shared\\_Layout.cshtml",
@@ -356,12 +584,11 @@
               "RelativeToolTip": "DigitalLibrary.WebUI\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-22T16:37:47.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T16:37:47.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Admin\\Index.cshtml",
@@ -369,12 +596,11 @@
               "RelativeToolTip": "DigitalLibrary.WebUI\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T11:38:26.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:38:26.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\AdminController.cs",
@@ -382,24 +608,11 @@
               "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:37:39.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:37:39.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:50:43.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Services\\UserService.cs",
@@ -407,37 +620,11 @@
               "RelativeToolTip": "DigitalLibrary.Infrastructure\\Services\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:36:51.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T13:36:51.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BorrowRecord.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\BorrowRecord.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\BorrowRecord.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\BorrowRecord.cs",
-              "RelativeToolTip": "DigitalLibrary.Core\\Models\\BorrowRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:05:33.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T16:32:44.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "PaginationViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\PaginationViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\PaginationViewModel.cs",
@@ -449,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 36,
               "Title": "BorrowRecordsController.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\BorrowRecordsController.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\BorrowRecordsController.cs",
@@ -461,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "GenresController.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\GenresController.cs",
@@ -473,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Genres\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Genres\\Index.cshtml",
@@ -481,12 +668,11 @@
               "RelativeToolTip": "DigitalLibrary.WebUI\\Views\\Genres\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-22T16:37:06.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T16:37:06.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Authors\\Index.cshtml",
@@ -498,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Books\\Index.cshtml",
@@ -510,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "AuthorsFilterViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\AuthorsFilterViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\AuthorsFilterViewModel.cs",
@@ -522,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 35,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\AccountController.cs",
@@ -534,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "GenresFilterViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\GenresFilterViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\GenresFilterViewModel.cs",
@@ -546,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "BookFilterViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\BookFilterViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\BookFilterViewModel.cs",
@@ -558,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\UsersController.cs",
@@ -570,19 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DigitalLibrary.WebUI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T09:41:19.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Account\\AccessDenied.cshtml",
@@ -594,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 38,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Users\\Delete.cshtml",
@@ -606,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\UserRepository.cs",
@@ -618,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\appsettings.json",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\appsettings.json",
@@ -630,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "GenreRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\GenreRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\GenreRepository.cs",
@@ -642,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "BorrowRecordRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\BorrowRecordRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\BorrowRecordRepository.cs",
@@ -654,43 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "DigitalLibrary.Infrastructure\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:26:27.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "RelativeToolTip": "DigitalLibrary.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:26:40.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "LibraryDbContext.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
-              "RelativeToolTip": "DigitalLibrary.Data\\Context\\LibraryDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:14:14.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "UserCreateViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\UserCreateViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\UserCreateViewModel.cs",
@@ -702,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\RegisterViewModel.cs",
@@ -714,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\ViewModels\\LoginViewModel.cs",
@@ -726,19 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\User.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\User.cs",
-              "RelativeToolTip": "DigitalLibrary.Core\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:05:12.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "Genre.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\Genre.cs",
@@ -750,19 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\Book.cs",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Book.cs",
-              "RelativeToolTip": "DigitalLibrary.Core\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:04:04.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\BaseEntity.cs",
@@ -774,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "Author.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Models\\Author.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Models\\Author.cs",
@@ -786,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IUserRepository.cs",
@@ -798,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "IGenreRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IGenreRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IGenreRepository.cs",
@@ -810,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "IBorrowRecordRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IBorrowRecordRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IBorrowRecordRepository.cs",
@@ -822,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IBookRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IBookRepository.cs",
@@ -834,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "IAuthorRepository.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\Interfaces\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Core\\Interfaces\\IAuthorRepository.cs",
@@ -846,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Account\\Register.cshtml",
@@ -858,7 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Account\\Login.cshtml",
@@ -870,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\BorrowRecords\\Create.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\BorrowRecords\\Create.cshtml",
@@ -882,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\BorrowRecords\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\BorrowRecords\\Index.cshtml",
@@ -894,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Users\\Index.cshtml",
@@ -906,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Users\\Details.cshtml",
@@ -918,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Users\\Edit.cshtml",
@@ -930,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Users\\Create.cshtml",
@@ -942,7 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\BorrowRecords\\Edit.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\BorrowRecords\\Edit.cshtml",
@@ -954,7 +1068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\BorrowRecords\\Delete.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\BorrowRecords\\Delete.cshtml",
@@ -966,7 +1080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 64,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\BorrowRecords\\Details.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\BorrowRecords\\Details.cshtml",
@@ -978,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Edit.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Books\\Edit.cshtml",
@@ -990,7 +1104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Create.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Books\\Create.cshtml",
@@ -1002,19 +1116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
-              "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
-              "ToolTip": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
-              "RelativeToolTip": "DigitalLibrary.WebUI\\Views\\Books\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T08:43:38.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\Views\\Books\\Delete.cshtml",
               "RelativeDocumentMoniker": "DigitalLibrary.WebUI\\Views\\Books\\Delete.cshtml",
@@ -1026,7 +1128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "20250522160844_InitialCreate.cs",
               "DocumentMoniker": "D:\\\u0423\u0440\u043E\u043A\u0438\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\Migrations\\20250522160844_InitialCreate.cs",
               "RelativeDocumentMoniker": "DigitalLibrary.Data\\Migrations\\20250522160844_InitialCreate.cs",
