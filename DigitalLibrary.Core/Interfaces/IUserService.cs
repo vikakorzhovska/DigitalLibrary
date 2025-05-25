@@ -12,5 +12,7 @@ namespace DigitalLibrary.Core.Interfaces
         Task<User?> GetByEmailAsync(string email);
         Task<User> CreateUserAsync(string name, string email, string password);
         Task<User?> ValidateUserAsync(string email, string password);
+        string HashPassword(User user, string password);
+
     }
 }
