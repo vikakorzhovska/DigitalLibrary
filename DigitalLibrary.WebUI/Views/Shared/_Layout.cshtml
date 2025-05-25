@@ -25,6 +25,7 @@
                         @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
                             <a class="nav-link" asp-controller="Users" asp-action="Index">Користувачі</a>
+                            <a class="nav-link" asp-controller="Admin" asp-action="Index">Статистика</a>
                         }
                     </ul>
 
