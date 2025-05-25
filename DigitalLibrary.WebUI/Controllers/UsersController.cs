@@ -3,8 +3,10 @@ using DigitalLibrary.Core.Models;
 using DigitalLibrary.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using DigitalLibrary.Core.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 namespace DigitalLibrary.WebUI.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller
     {
         private readonly IUserRepository _userRepo;

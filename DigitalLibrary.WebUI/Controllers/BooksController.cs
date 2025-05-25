@@ -1,10 +1,12 @@
 ﻿using DigitalLibrary.Core.Interfaces;
 using DigitalLibrary.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
+    [Authorize]
     public class BooksController : Controller
     {
         private readonly IBookRepository _bookRepository;
@@ -26,7 +28,7 @@ namespace DigitalLibrary.WebUI.Controllers
             var books = await _bookRepository.GetAllAsync();
             return View(books);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create()
         {
             ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName");
@@ -34,7 +36,7 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Book book)
@@ -49,7 +51,7 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(book);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id)
         {
             var book = await _bookRepository.GetByIdAsync(id);
@@ -60,7 +62,7 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(book);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Book book)
@@ -78,7 +80,7 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(book);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var book = await _bookRepository.GetByIdAsync(id);
@@ -88,7 +90,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(book);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

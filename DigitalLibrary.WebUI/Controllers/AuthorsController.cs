@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DigitalLibrary.Core.Models;
 using DigitalLibrary.Data.Context;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
+    [Authorize]
     public class AuthorsController : Controller
     {
         private readonly LibraryDbContext _context;
@@ -39,12 +41,12 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(author);
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FullName,Id,CreatedAt")] Author author)
@@ -57,7 +59,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(author);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -72,7 +74,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(author);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("FullName,Id,CreatedAt")] Author author)
@@ -104,7 +106,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(author);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -121,7 +123,7 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(author);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
