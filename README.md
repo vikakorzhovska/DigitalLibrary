@@ -1,7 +1,7 @@
-##DigitalLibrary
-###Description of the project
+## DigitalLibrary
+### Description of the project
 DigitalLibrary.WebUI is a web application for an e-library built on ASP.NET Core MVC. The application allows users to register, browse books, genres, authors, create reviews, and administrators to manage users and content.
-###Basic functionality
+### Basic functionality
 - Authentication and authorization of users with User and Admin roles (implemented in AccountController.cs)
 
 - Browsing, searching, pagination of books and genres (BooksController.cs, GenresController.cs) 
@@ -12,14 +12,14 @@ DigitalLibrary.WebUI is a web application for an e-library built on ASP.NET Core
 
 - Using roles to restrict access ([Authorize] attributes in controllers)
 
-###Run locally
+### Run locally
 1. Clone the repository
 2. Open the project in Visual Studio or VS Code
 3. Edit the connection string in appsettings.json
 4. Create a database and apply EF Core migrations (if needed)
 5. Run the project
 
-###Programming Principles
+### Programming Principles
 
 1. SRP (Single Responsibility Principle)
 Each class has one responsibility
@@ -45,7 +45,7 @@ Dependencies through abstractions
 Avoiding code duplication
 (Using PaginationViewModel in Books, Genres, etc.)
 
-###Refactoring Techniques
+### Refactoring Techniques
 1. Extract Method
 Moving part of the logic into a method
 (GenreController.Index → ​​filtering and pagination)
@@ -70,7 +70,7 @@ MVC structure, ViewModels
 DI for services and repositories
 (Via builder.Services.AddScoped<...> in Program.cs)
 
-###Design Patterns
+### Design Patterns
 
 1. Repository
 Abstracts the logic of database access
@@ -92,14 +92,14 @@ Conservation coordination
 Creating a user with password hashing
 (UserService.CreateUserAsync (UserService.cs))
 
-###Authorization and roles
+### Authorization and roles
 - HomeController allowed for all
 
 - Controllers (Books, Genres, BorrowRecords) - for authorized
 
 - Administration (UsersController, Create/Edit/Delete) - for Admin only
 
-###Conclusions
+### Conclusions
 
 The DigitalLibrary project demonstrates the implementation of a full-fledged multi-tier web system with a clear separation of responsibilities, using modern programming practices and architectural approaches.
 The solution structure follows the principles of clean architecture: separate layers for models, data access, business logic, and UI. All project components adhere to the key SOLID principles, which ensures flexibility, scalability, and ease of maintenance.
