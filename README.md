@@ -106,3 +106,6 @@ The solution structure follows the principles of clean architecture: separate la
 Common design patterns (Repository, MVC, Dependency Injection) were applied, which allows you to effectively organize the code and reduce coupling between modules. Numerous refactoring techniques were implemented to make the code clean, understandable, and convenient for further development.
 In addition, the system supports authentication, authorization with role-based access, and allows users to interact with content by creating book check-out records and adding reviews. All this makes the application not only technically competent, but also convenient and functional for the end user.
 
+### Number of lines of code
+
+![Book Preview](lines.png)
