@@ -25,21 +25,32 @@ namespace DigitalLibrary.WebUI.Controllers
             _authorRepository = authorRepository;
         }
 
-        public async Task<IActionResult> Index(string? name)
+        public async Task<IActionResult> Index(string? name, int page = 1, int pageSize = 5)
         {
-            var authors = await _authorRepository.GetAllAsync();
+            var authors = (await _authorRepository.GetAllAsync()).ToList();
 
             if (!string.IsNullOrWhiteSpace(name))
-                authors = authors.Where(a => a.FullName.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+                authors = authors
+                    .Where(a => a.FullName.Contains(name, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
 
-            var viewModel = new AuthorsFilterViewModel
+            int totalItems = authors.Count;
+            var itemsToShow = authors
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            var viewModel = new PaginationViewModel<Author>
             {
-                Name = name,
-                Authors = authors
+                Items = itemsToShow,
+                CurrentPage = page,
+                TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize),
+                SearchTerm = name
             };
 
             return View(viewModel);
         }
+
 
         public async Task<IActionResult> Details(int? id)
         {

@@ -1,21 +1,27 @@
-﻿@model DigitalLibrary.Core.ViewModels.BookFilterViewModel
+﻿@using DigitalLibrary.Core.ViewModels
+@model PaginationViewModel<DigitalLibrary.Core.Models.Book>
 
 @{
     ViewData["Title"] = "Books";
+    var authors = ViewBag.Authors as List<DigitalLibrary.Core.Models.Author>;
+    var genres = ViewBag.Genres as List<DigitalLibrary.Core.Models.Genre>;
+    var selectedAuthorId = ViewBag.SelectedAuthorId as int?;
+    var selectedGenreId = ViewBag.SelectedGenreId as int?;
 }
 
 <h1>Books</h1>
 
 <form method="get" asp-controller="Books" asp-action="Index" class="mb-4">
     <div class="form-group">
-        <input type="text" name="title" value="@Model.Title" placeholder="Search by title" class="form-control" />
+        <input type="text" name="title" value="@Model.SearchTerm" placeholder="Search by title" class="form-control" />
     </div>
     <div class="form-group">
         <select name="authorId" class="form-control">
             <option value="">All Authors</option>
-            @foreach (var author in Model.Authors)
+            @foreach (var author in authors)
             {
-                <option value="@author.Id" selected="@(Model.AuthorId == author.Id)">
+                <option value="@author.Id"
+                        selected="@(selectedAuthorId == author.Id)">
                     @author.FullName
                 </option>
             }
@@ -24,9 +30,10 @@
     <div class="form-group">
         <select name="genreId" class="form-control">
             <option value="">All Genres</option>
-            @foreach (var genre in Model.Genres)
+            @foreach (var genre in genres)
             {
-                <option value="@genre.Id" selected="@(Model.GenreId == genre.Id)">
+                <option value="@genre.Id"
+                        selected="@(selectedGenreId == genre.Id)">
                     @genre.Name
                 </option>
             }
@@ -45,7 +52,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var book in Model.Books)
+        @foreach (var book in Model.Items)
         {
             <tr>
                 <td>@book.Title</td>
@@ -63,4 +70,22 @@
 
 <a asp-action="Create" class="btn btn-success">Add New Book</a>
 
+@if (Model.TotalPages > 1)
+{
+    <nav class="mt-4">
+        <ul class="pagination">
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link"
+                       asp-action="Index"
+                       asp-route-title="@Model.SearchTerm"
+                       asp-route-authorId="@selectedAuthorId"
+                       asp-route-genreId="@selectedGenreId"
+                       asp-route-page="@i">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
 
