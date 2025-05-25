@@ -1,5 +1,6 @@
 ﻿using DigitalLibrary.Core.Interfaces;
 using DigitalLibrary.Core.Models;
+using DigitalLibrary.Core.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -23,11 +24,35 @@ namespace DigitalLibrary.WebUI.Controllers
             _genreRepository = genreRepository;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? title, int? authorId, int? genreId)
         {
             var books = await _bookRepository.GetAllAsync();
-            return View(books);
+
+            if (!string.IsNullOrWhiteSpace(title))
+                books = books.Where(b => b.Title.Contains(title, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            if (authorId.HasValue)
+                books = books.Where(b => b.AuthorId == authorId.Value).ToList();
+
+            if (genreId.HasValue)
+                books = books.Where(b => b.GenreId == genreId.Value).ToList();
+
+            var authors = await _authorRepository.GetAllAsync();
+            var genres = await _genreRepository.GetAllAsync();
+
+            var viewModel = new BookFilterViewModel
+            {
+                Title = title,
+                AuthorId = authorId,
+                GenreId = genreId,
+                Books = books,
+                Authors = authors,
+                Genres = genres
+            };
+
+            return View(viewModel);
         }
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create()
         {

@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using DigitalLibrary.Core.Models;
 using DigitalLibrary.Data.Context;
 using Microsoft.AspNetCore.Authorization;
+using DigitalLibrary.Core.ViewModels;
+using DigitalLibrary.Core.Interfaces;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
@@ -15,16 +17,30 @@ namespace DigitalLibrary.WebUI.Controllers
     public class AuthorsController : Controller
     {
         private readonly LibraryDbContext _context;
+        private readonly IAuthorRepository _authorRepository;
 
-        public AuthorsController(LibraryDbContext context)
+        public AuthorsController(LibraryDbContext context, IAuthorRepository authorRepository)
         {
             _context = context;
+            _authorRepository = authorRepository;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? name)
         {
-            return View(await _context.Authors.ToListAsync());
+            var authors = await _authorRepository.GetAllAsync();
+
+            if (!string.IsNullOrWhiteSpace(name))
+                authors = authors.Where(a => a.FullName.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            var viewModel = new AuthorsFilterViewModel
+            {
+                Name = name,
+                Authors = authors
+            };
+
+            return View(viewModel);
         }
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
