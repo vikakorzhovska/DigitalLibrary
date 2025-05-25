@@ -1,0 +1,62 @@
+﻿@model DigitalLibrary.Core.ViewModels.AdminStatisticsViewModel
+
+<h1>Admin Dashboard</h1>
+
+<div>
+    <h3>Summary</h3>
+    <ul>
+        <li>Total Books: @Model.TotalBooks</li>
+        <li>Total Authors: @Model.TotalAuthors</li>
+        <li>Total Genres: @Model.TotalGenres</li>
+        <li>Total Users: @Model.TotalUsers</li>
+        <li>Borrowings Last Month: @Model.BorrowingsLastMonth</li>
+    </ul>
+</div>
+
+<div>
+    <h3>Books Count by Genre</h3>
+    <ul>
+        @foreach (var item in Model.BooksCountByGenre)
+        {
+            <li>@item.Key: @item.Value</li>
+        }
+    </ul>
+</div>
+
+<div>
+    <h3>Top 5 Borrowed Books</h3>
+    <table class="table">
+        <thead>
+            <tr><th>Title</th><th>Borrow Count</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.TopBorrowedBooks)
+            {
+                <tr>
+                    <td>@book.BookTitle</td>
+                    <td>@book.Count</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+<div>
+    <h3>Top 5 Users by Borrowings</h3>
+    <table class="table">
+        <thead>
+            <tr><th>User</th><th>Borrow Count</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.TopUsers)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Count</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
