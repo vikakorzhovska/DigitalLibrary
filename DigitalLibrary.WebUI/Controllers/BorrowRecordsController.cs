@@ -1,10 +1,12 @@
 ﻿using DigitalLibrary.Core.Interfaces;
 using DigitalLibrary.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
+    [Authorize(Roles = "Admin,User")]
     public class BorrowRecordsController : Controller
     {
         private readonly IBorrowRecordRepository _borrowRecordRepo;

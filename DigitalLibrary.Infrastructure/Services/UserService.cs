@@ -27,13 +27,13 @@ namespace DigitalLibrary.Infrastructure.Services
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
 
-        public async Task<User> CreateUserAsync(string name, string email, string password)
+        public async Task<User> CreateUserAsync(string name, string email, string password, string role = "User")
         {
             var user = new User
             {
                 Username = name,
                 Email = email,
-                Role = "Reader"
+                Role = role 
             };
 
             user.PasswordHash = _passwordHasher.HashPassword(user, password);
@@ -43,6 +43,7 @@ namespace DigitalLibrary.Infrastructure.Services
 
             return user;
         }
+
 
         public async Task<User?> ValidateUserAsync(string email, string password)
         {

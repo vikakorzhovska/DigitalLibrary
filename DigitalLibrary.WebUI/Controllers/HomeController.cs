@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using DigitalLibrary.WebUI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DigitalLibrary.WebUI.Controllers
@@ -12,12 +13,12 @@ namespace DigitalLibrary.WebUI.Controllers
         {
             _logger = logger;
         }
-
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
         }
-
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();

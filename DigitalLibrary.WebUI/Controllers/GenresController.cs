@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DigitalLibrary.Core.Models;
 using DigitalLibrary.Data.Context;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
+    [Authorize]
     public class GenresController : Controller
     {
         private readonly LibraryDbContext _context;
@@ -40,12 +42,12 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(genre);
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Name,Id,CreatedAt")] Genre genre)
@@ -58,7 +60,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(genre);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,7 +75,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(genre);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Name,Id,CreatedAt")] Genre genre)
@@ -105,7 +107,7 @@ namespace DigitalLibrary.WebUI.Controllers
             }
             return View(genre);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -122,7 +124,7 @@ namespace DigitalLibrary.WebUI.Controllers
 
             return View(genre);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

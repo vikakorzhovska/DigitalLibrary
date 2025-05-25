@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DigitalLibrary.WebUI.Controllers
 {
@@ -16,7 +17,7 @@ namespace DigitalLibrary.WebUI.Controllers
         {
             _userService = userService;
         }
-
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Register()
         {
@@ -24,6 +25,7 @@ namespace DigitalLibrary.WebUI.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (!ModelState.IsValid)
@@ -36,14 +38,15 @@ namespace DigitalLibrary.WebUI.Controllers
                 return View(model);
             }
 
-            var user = await _userService.CreateUserAsync(model.Name, model.Email, model.Password);
+            var user = await _userService.CreateUserAsync(model.Name, model.Email, model.Password, "User");
+
 
             await SignInUser(user);
 
             return RedirectToAction("Index", "Home");
         }
 
-
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Login()
         {
@@ -51,6 +54,7 @@ namespace DigitalLibrary.WebUI.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (!ModelState.IsValid)
@@ -80,9 +84,9 @@ namespace DigitalLibrary.WebUI.Controllers
         {
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.Email),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Role, user.Role ?? "Reader")
+              new Claim(ClaimTypes.Name, user.Email),
+    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+    new Claim(ClaimTypes.Role, user.Role ?? "User")
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -97,6 +101,12 @@ namespace DigitalLibrary.WebUI.Controllers
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(claimsIdentity),
                 authProperties);
+        }
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }
