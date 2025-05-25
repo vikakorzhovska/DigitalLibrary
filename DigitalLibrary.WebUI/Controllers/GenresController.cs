@@ -25,21 +25,32 @@ namespace DigitalLibrary.WebUI.Controllers
             _genreRepository = genreRepository;
         }
 
-        public async Task<IActionResult> Index(string? name)
+        public async Task<IActionResult> Index(string? name, int page = 1, int pageSize = 5)
         {
-            var genres = await _genreRepository.GetAllAsync();
+            var genres = (await _genreRepository.GetAllAsync()).ToList();
 
             if (!string.IsNullOrWhiteSpace(name))
-                genres = genres.Where(g => g.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+                genres = genres
+                    .Where(g => g.Name.Contains(name, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
 
-            var viewModel = new GenresFilterViewModel
+            int totalItems = genres.Count;
+            var itemsToShow = genres
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            var viewModel = new PaginationViewModel<Genre>
             {
-                Name = name,
-                Genres = genres
+                Items = itemsToShow,
+                CurrentPage = page,
+                TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize),
+                SearchTerm = name
             };
 
             return View(viewModel);
         }
+
 
 
         public async Task<IActionResult> Details(int? id)

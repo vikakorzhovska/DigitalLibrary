@@ -24,9 +24,10 @@ namespace DigitalLibrary.WebUI.Controllers
             _genreRepository = genreRepository;
         }
 
-        public async Task<IActionResult> Index(string? title, int? authorId, int? genreId)
+        public async Task<IActionResult> Index(string? title, int? authorId, int? genreId, int page = 1)
         {
-            var books = await _bookRepository.GetAllAsync();
+            const int PageSize = 5;
+            var books = (await _bookRepository.GetAllAsync()).ToList();
 
             if (!string.IsNullOrWhiteSpace(title))
                 books = books.Where(b => b.Title.Contains(title, StringComparison.OrdinalIgnoreCase)).ToList();
@@ -37,21 +38,31 @@ namespace DigitalLibrary.WebUI.Controllers
             if (genreId.HasValue)
                 books = books.Where(b => b.GenreId == genreId.Value).ToList();
 
-            var authors = await _authorRepository.GetAllAsync();
-            var genres = await _genreRepository.GetAllAsync();
+            var totalBooks = books.Count;
+            var totalPages = (int)Math.Ceiling(totalBooks / (double)PageSize);
 
-            var viewModel = new BookFilterViewModel
+            var pagedBooks = books
+                .Skip((page - 1) * PageSize)
+                .Take(PageSize)
+                .ToList();
+
+            var paginationModel = new PaginationViewModel<Book>
             {
-                Title = title,
-                AuthorId = authorId,
-                GenreId = genreId,
-                Books = books,
-                Authors = authors,
-                Genres = genres
+                Items = pagedBooks,
+                CurrentPage = page,
+                TotalPages = totalPages,
+                SearchTerm = title
             };
 
-            return View(viewModel);
+            ViewBag.Authors = await _authorRepository.GetAllAsync();
+            ViewBag.Genres = await _genreRepository.GetAllAsync();
+            ViewBag.SelectedAuthorId = authorId;
+            ViewBag.SelectedGenreId = genreId;
+
+            return View(paginationModel);
         }
+
+
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create()
