@@ -16,3 +16,21 @@ D:\Уроки\Конструювання програмного забезпеч
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.pdb
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.genruntimeconfig.cache
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\ref\DigitalLibrary.Data.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\bin\Debug\net8.0\DigitalLibrary.Data.deps.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\bin\Debug\net8.0\DigitalLibrary.Data.runtimeconfig.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\bin\Debug\net8.0\DigitalLibrary.Data.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\bin\Debug\net8.0\DigitalLibrary.Data.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\bin\Debug\net8.0\DigitalLibrary.Core.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\bin\Debug\net8.0\DigitalLibrary.Core.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.csproj.AssemblyReference.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.AssemblyInfoInputs.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.AssemblyInfo.cs
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.csproj.CoreCompileInputs.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.sourcelink.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalL.9C0881D0.Up2Date
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\refint\DigitalLibrary.Data.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\DigitalLibrary.Data.genruntimeconfig.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Data\obj\Debug\net8.0\ref\DigitalLibrary.Data.dll

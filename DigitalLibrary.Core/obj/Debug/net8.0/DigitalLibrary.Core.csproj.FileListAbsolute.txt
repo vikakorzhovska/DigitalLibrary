@@ -10,3 +10,15 @@ D:\Уроки\Конструювання програмного забезпеч
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\refint\DigitalLibrary.Core.dll
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.pdb
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\ref\DigitalLibrary.Core.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\bin\Debug\net8.0\DigitalLibrary.Core.deps.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\bin\Debug\net8.0\DigitalLibrary.Core.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\bin\Debug\net8.0\DigitalLibrary.Core.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.AssemblyInfoInputs.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.AssemblyInfo.cs
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.csproj.CoreCompileInputs.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.sourcelink.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\refint\DigitalLibrary.Core.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\DigitalLibrary.Core.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Core\obj\Debug\net8.0\ref\DigitalLibrary.Core.dll

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj": {}
+    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj": {}
   },
   "projects": {
-    "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
+        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
         "projectName": "DigitalLibrary.Core",
-        "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\obj\\",
+        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
+    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
+        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
         "projectName": "DigitalLibrary.Data",
-        "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\obj\\",
+        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
-                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
+              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
               }
             }
           }
@@ -112,8 +111,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -150,24 +148,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {
+    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
+        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
         "projectName": "DigitalLibrary.Infrastructure",
-        "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\obj\\",
+        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,11 +180,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
-                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
+              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
               },
-              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
-                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
+              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
+                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
               }
             }
           }
@@ -200,8 +198,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -228,24 +225,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj": {
+    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj",
+        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj",
         "projectName": "DigitalLibrary.WebUI",
-        "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.WebUI\\obj\\",
+        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.WebUI\\DigitalLibrary.WebUI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -260,14 +257,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
-                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
+              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
               },
-              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
-                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
+              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
+                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
               },
-              "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {
-                "projectPath": "D:\\Уроки\\Конструювання програмного забезпечення\\Lab6\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj"
+              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {
+                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj"
               }
             }
           }
@@ -281,8 +278,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -318,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
