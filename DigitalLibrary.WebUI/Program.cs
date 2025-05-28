@@ -10,16 +10,7 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddScoped<IBookRepository, BookRepository>();
-builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
-builder.Services.AddScoped<IGenreRepository, GenreRepository>();
-builder.Services.AddScoped<IBorrowRecordRepository, BorrowRecordRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IStatisticsService, StatisticsService>();
-builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
-builder.Services.AddDbContext<LibraryDbContext>(options =>
-    options.UseSqlServer(connectionString));
+builder.Services.AddApplicationServices(connectionString);
 // Add services to the container.
 builder.Services.AddControllersWithViews(options =>
 {

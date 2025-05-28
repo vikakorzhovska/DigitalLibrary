@@ -881,10 +881,7 @@
       },
       "DigitalLibrary.Core/1.0.0": {
         "runtime": {
-          "DigitalLibrary.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DigitalLibrary.Core.dll": {}
         }
       },
       "DigitalLibrary.Data/1.0.0": {
@@ -894,10 +891,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
         },
         "runtime": {
-          "DigitalLibrary.Data.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DigitalLibrary.Data.dll": {}
         }
       }
     }

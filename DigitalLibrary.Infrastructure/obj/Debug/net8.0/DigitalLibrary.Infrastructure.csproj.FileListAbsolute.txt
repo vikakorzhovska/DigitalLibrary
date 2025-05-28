@@ -16,3 +16,21 @@ D:\Уроки\Конструювання програмного забезпеч
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\refint\DigitalLibrary.Infrastructure.dll
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.pdb
 D:\Уроки\Конструювання програмного забезпечення\Lab6\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\ref\DigitalLibrary.Infrastructure.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Infrastructure.deps.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Infrastructure.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Infrastructure.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Core.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Data.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Core.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\bin\Debug\net8.0\DigitalLibrary.Data.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.csproj.AssemblyReference.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.AssemblyInfoInputs.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.AssemblyInfo.cs
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.csproj.CoreCompileInputs.cache
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.sourcelink.json
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalL.8224BFD1.Up2Date
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\refint\DigitalLibrary.Infrastructure.dll
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\DigitalLibrary.Infrastructure.pdb
+E:\ipz234_khnv\Visual Studio\KPZ\mkr-2\[1]\DigitalLibrary\DigitalLibrary.Infrastructure\obj\Debug\net8.0\ref\DigitalLibrary.Infrastructure.dll
