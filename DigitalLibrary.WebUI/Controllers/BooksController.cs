@@ -11,68 +11,35 @@ namespace DigitalLibrary.WebUI.Controllers
     [Authorize]
     public class BooksController : Controller
     {
-        private readonly IBookRepository _bookRepository;
-        private readonly IAuthorRepository _authorRepository;
-        private readonly IGenreRepository _genreRepository;
+        private readonly IBookService _bookService;
 
-        public BooksController(
-            IBookRepository bookRepository,
-            IAuthorRepository authorRepository,
-            IGenreRepository genreRepository)
+        public BooksController(IBookService bookService)
         {
-            _bookRepository = bookRepository;
-            _authorRepository = authorRepository;
-            _genreRepository = genreRepository;
+            _bookService = bookService;
         }
 
         public async Task<IActionResult> Index(string? title, int? authorId, int? genreId, int page = 1)
         {
             const int PageSize = 5;
-            var books = (await _bookRepository.GetAllAsync()).ToList();
+            var model = await _bookService.GetBooksAsync(title, authorId, genreId, page, PageSize);
 
-            if (!string.IsNullOrWhiteSpace(title))
-                books = books.Where(b => b.Title.Contains(title, StringComparison.OrdinalIgnoreCase)).ToList();
-
-            if (authorId.HasValue)
-                books = books.Where(b => b.AuthorId == authorId.Value).ToList();
-
-            if (genreId.HasValue)
-                books = books.Where(b => b.GenreId == genreId.Value).ToList();
-
-            var totalBooks = books.Count;
-            var totalPages = (int)Math.Ceiling(totalBooks / (double)PageSize);
-
-            var pagedBooks = books
-                .Skip((page - 1) * PageSize)
-                .Take(PageSize)
-                .ToList();
-
-            var paginationModel = new PaginationViewModel<Book>
-            {
-                Items = pagedBooks,
-                CurrentPage = page,
-                TotalPages = totalPages,
-                SearchTerm = title
-            };
-
-            ViewBag.Authors = await _authorRepository.GetAllAsync();
-            ViewBag.Genres = await _genreRepository.GetAllAsync();
+            ViewBag.Authors = await _bookService.GetAuthorsAsync();
+            ViewBag.Genres = await _bookService.GetGenresAsync();
             ViewBag.SelectedAuthorId = authorId;
             ViewBag.SelectedGenreId = genreId;
 
-            return View(paginationModel);
+            return View(model);
         }
-
-
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create()
         {
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName");
-            ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name"); 
+            ViewData["Authors"] = new SelectList(await _bookService.GetAuthorsAsync(), "Id", "FullName");
+            ViewData["Genres"] = new SelectList(await _bookService.GetGenresAsync(), "Id", "Name");
 
             return View();
         }
+
         [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -80,25 +47,28 @@ namespace DigitalLibrary.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _bookRepository.AddAsync(book);
+                await _bookService.AddAsync(book);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName", book.AuthorId);
-            ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
+
+            ViewData["Authors"] = new SelectList(await _bookService.GetAuthorsAsync(), "Id", "FullName", book.AuthorId);
+            ViewData["Genres"] = new SelectList(await _bookService.GetGenresAsync(), "Id", "Name", book.GenreId);
 
             return View(book);
         }
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id)
         {
-            var book = await _bookRepository.GetByIdAsync(id);
+            var book = await _bookService.GetByIdAsync(id);
             if (book == null) return NotFound();
 
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName", book.AuthorId);
-            ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
+            ViewData["Authors"] = new SelectList(await _bookService.GetAuthorsAsync(), "Id", "FullName", book.AuthorId);
+            ViewData["Genres"] = new SelectList(await _bookService.GetGenresAsync(), "Id", "Name", book.GenreId);
 
             return View(book);
         }
+
         [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -108,47 +78,41 @@ namespace DigitalLibrary.WebUI.Controllers
 
             if (ModelState.IsValid)
             {
-                await _bookRepository.UpdateAsync(book);
+                await _bookService.UpdateAsync(book);
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewData["Authors"] = new SelectList(await _authorRepository.GetAllAsync(), "Id", "FullName", book.AuthorId);
-            ViewData["Genres"] = new SelectList(await _genreRepository.GetAllAsync(), "Id", "Name", book.GenreId);
+            ViewData["Authors"] = new SelectList(await _bookService.GetAuthorsAsync(), "Id", "FullName", book.AuthorId);
+            ViewData["Genres"] = new SelectList(await _bookService.GetGenresAsync(), "Id", "Name", book.GenreId);
 
             return View(book);
         }
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
-            var book = await _bookRepository.GetByIdAsync(id);
-            if (book == null)
-            {
-                return NotFound();
-            }
+            var book = await _bookService.GetByIdAsync(id);
+            if (book == null) return NotFound();
+
             return View(book);
         }
+
         [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _bookRepository.DeleteAsync(id);
+            await _bookService.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Details(int id)
         {
-            var book = await _bookRepository.GetByIdAsync(id);
-            if (book == null)
-            {
-                return NotFound();
-            }
+            var book = await _bookService.GetByIdAsync(id);
+            if (book == null) return NotFound();
 
             return View(book);
         }
-
-
-
     }
 }
 
