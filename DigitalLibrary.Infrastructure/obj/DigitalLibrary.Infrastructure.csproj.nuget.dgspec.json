@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {}
+    "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+    "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
+        "projectUniqueName": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
         "projectName": "DigitalLibrary.Core",
-        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\obj\\",
+        "projectPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj",
+        "packagesPath": "C:\\Users\\мс\\.nuget\\packages\\",
+        "outputPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\мс\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,30 +50,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
+    "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
+        "projectUniqueName": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
         "projectName": "DigitalLibrary.Data",
-        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\obj\\",
+        "projectPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj",
+        "packagesPath": "C:\\Users\\мс\\.nuget\\packages\\",
+        "outputPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\мс\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +78,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
-                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
+              "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+                "projectPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
               }
             }
           }
@@ -106,32 +88,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -143,30 +104,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {
+    "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
+        "projectUniqueName": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
         "projectName": "DigitalLibrary.Infrastructure",
-        "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Infrastructure\\obj\\",
+        "projectPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Infrastructure\\DigitalLibrary.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\мс\\.nuget\\packages\\",
+        "outputPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\мс\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,11 +132,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
-                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
+              "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj": {
+                "projectPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Core\\DigitalLibrary.Core.csproj"
               },
-              "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
-                "projectPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\mkr-2\\[1]\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
+              "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj": {
+                "projectPath": "D:\\КПЗ\\МКР2\\DigitalLibrary\\DigitalLibrary.Data\\DigitalLibrary.Data.csproj"
               }
             }
           }
@@ -193,22 +145,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.3.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -220,12 +161,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
